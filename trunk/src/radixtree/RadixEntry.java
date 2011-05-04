@@ -26,10 +26,6 @@ package radixtree;
 
 import java.util.Map;
 
-/**
- *
- * @author daves
- */
 public class RadixEntry<T> implements Map.Entry<String, T> {
     public String key;
     public T value;
